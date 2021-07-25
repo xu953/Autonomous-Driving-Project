@@ -1,0 +1,7 @@
+<launch>
+
+    <node pkg="final_project" type="cmdvel2gazebo.py" name="cmdvel2gazebo" output="screen" />
+    <node pkg="final_project" type="basic_task.py" name="basic_task_node" output="screen" />
+ 
+
+</launch>

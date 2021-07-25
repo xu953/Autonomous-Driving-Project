@@ -1,0 +1,7 @@
+<launch>
+
+    <node pkg="final_project" type="cmdvel2gazebo.py" name="cmdvel2gazebo" output="screen" />
+    <node pkg="final_project" type="extra_credit.py" name="extra_credit_node" output="screen" />
+ 
+
+</launch>
